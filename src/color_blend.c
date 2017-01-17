@@ -199,12 +199,11 @@ int main(int argc, char** argv) {
 	};
 
 	/* Write result image */
-	stbi_write_png(_newImageFilename,
+	stbi_write_bmp(_newImageFilename,
 		       _image1Width,
 		       _image1Height,
 		       _image1CountComponents,
-		       _newImage,
-		       _stride);
+		       _newImage);
 
 	/* Clean up memory */
 	free(_newImage);
