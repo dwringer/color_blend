@@ -1,1 +1,1 @@
-c++ -oblend.exe src\blend.cpp -Iinclude -std=c++11
+c++ -ocolor_blend.exe src\color_blend.c -Iinclude -std=c++11 -Wall
